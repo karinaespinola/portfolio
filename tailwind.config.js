@@ -2,7 +2,14 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#24253E'
+      },
+      fontFamily: {
+        sans: ['Manrope', 'sans-serif']
+      }
+    },
   },
   variants: {
     extend: {},
