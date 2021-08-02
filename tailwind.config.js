@@ -7,7 +7,7 @@ module.exports = {
         primary: '#24253E'
       },
       fontFamily: {
-        sans: ['Manrope', 'sans-serif']
+        sans: ['Montserrat', 'sans-serif']
       }
     },
   },
