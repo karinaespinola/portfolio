@@ -28,6 +28,15 @@ function App() {
               I have been involved in front-end and back-end projects. I love the fact that I learn something
               new everyday! It's the best feeling! If you want to contact me please feel free to e-mail me or drop a line through social media :)
             </p>
+            <div className="flex">
+              <a href="mailto:kl.spinolah@gmail.com">
+                <img 
+                  src="/assets/email.svg" 
+                  alt="Email"
+                  className="text-white" 
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
