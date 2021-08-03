@@ -32,14 +32,23 @@ function App() {
             If you want to contact me please feel free to e-mail me or drop me a line through social media :)
             </p>
             <div className="flex items-center mt-5">
-              <a href="mailto:kl.spinolah@gmail.com" className="mr-3">
-                <Email classes="text-white h-10 w-10" />
+              <a 
+                href="mailto:kl.spinolah@gmail.com" 
+                className="mr-3 h-14 w-14 bg-white rounded-full flex items-center justify-center hover:bg-secondary group"                
+              >
+                <Email classes="text-primary h-10 w-10 group-hover:text-pink-500" />
               </a>
-              <a href="https://www.linkedin.com/in/karina-espinola/" className="mr-3">
-                <LinkedIn classes="text-white h-11 w-11" />
+              <a 
+                href="https://www.linkedin.com/in/karina-espinola/" 
+                className="mr-3 h-14 w-14 bg-white rounded-full flex items-center justify-center hover:bg-secondary group"
+              >
+                <LinkedIn classes="text-primary h-11 w-11 group-hover:text-pink-500" />
               </a>
-              <a href="https://github.com/karinaespinola">
-                <GitHub classes="text-white h-10 w-10" />
+              <a 
+                href="https://github.com/karinaespinola"
+                className="mr-3 h-14 w-14 bg-white rounded-full flex items-center justify-center hover:bg-secondary group"
+              >
+                <GitHub classes="text-primary h-10 w-10 group-hover:text-pink-500" />
               </a>
             </div>
           </div>
