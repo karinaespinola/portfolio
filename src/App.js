@@ -7,13 +7,13 @@ function App() {
   return (
     <div className="App">
       <div 
-        className="bg-primary h-screen" 
+        className="bg-primary h-full" 
         style={{backgroundImage:"url('/assets/white-waves.svg')", backgroundRepeat: 'no-repeat'}}
       >
           <div className="h-5" />
           <img  src="/assets/star.svg" alt="Cali Espinola" title="Cali Espinola" />
-        <div className="container mx-auto relative grid grid-cols-2 gap-4">
-          <div className="sm:mt-28">
+        <div className="container mx-auto relative grid grid-cols-1 md:grid-cols-12 gap-4 px-2">
+          <div className="sm:mt-28 md:col-span-6">
             <h1 
               className="text-white text-7xl font-bold"
               >
@@ -51,6 +51,9 @@ function App() {
                 <GitHub classes="text-primary h-10 w-10 group-hover:text-pink-500" />
               </a>
             </div>
+          </div>
+          <div className="md:col-span-6 flex items-center justify-center">
+            <img src="/assets/stars_and_me.png" alt="Karina Espinola" />
           </div>
         </div>
       </div>
