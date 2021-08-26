@@ -27,9 +27,9 @@ function App() {
             </h2>
             <p className="text-white mt-3">
             Hello! Welcome to my website, thank you for stopping by :) I'm a web developer located in El Salvador. 
-            I have been working as a web developer for 7 years now, I have been involved in front-end and back-end projects. 
+            I have been working as a web developer for 7 years now, I have been involved in both front-end and back-end projects. 
             I love the fact that I learn something new every day! It's the best feeling! 
-            If you want to contact me please feel free to e-mail me or drop me a line through social media :)
+            If you'd like to contact me please feel free to e-mail me or drop me a line through social media :)
             </p>
             <div className="flex items-center mt-5">
               <a 
