@@ -15,17 +15,22 @@ function App() {
             <img  src="/assets/star.svg" alt="Cali Espinola" title="Cali Espinola" />
           <div className="container mx-auto relative grid grid-cols-1 md:grid-cols-12 gap-4 px-2">
             <div className="sm:mt-28 md:col-span-6">
-              <h1 
-                className="text-white text-7xl font-bold"
+              <div className="slideEffect">
+                <h1 
+                  className="text-white text-7xl font-bold slideElement slideLeft"
+                  >
+                    Karina Espínola
+                </h1>
+              </div>
+              <div className="slideEffect">
+                <h2 
+                  className="text-white text-4xl mt-3 slideElement slideLeft"
+                  style={{fontFamily: ['Fira Mono', 'monospace'], animationDelay: '0.5s'}}
                 >
-                  Karina Espínola
-              </h1>
-              <h2 
-                className="text-white text-4xl mt-3"
-                style={{fontFamily: ['Fira Mono', 'monospace']}}
-              >
-                Web Developer
-              </h2>
+                  Web Developer
+                </h2>
+              </div>
+
               <p className="text-white mt-3">
               Hello! Welcome to my website, thank you for stopping by :) I'm a web developer located in El Salvador. 
               I have been working as a web developer for 7 years now, I have been involved in both front-end and back-end projects. 
@@ -57,7 +62,9 @@ function App() {
               </div>
             </div>
             <div className="md:col-span-6 flex items-center justify-center">
-              <img src="/assets/stars_and_me.png" alt="Karina Espinola" />
+              <div className="slideEffect">
+                <img className="slideElement slideUp" src="/assets/stars_and_me.png" alt="Karina Espinola" />
+              </div>              
             </div>
           </div>
         </div>

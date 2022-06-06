@@ -8,3 +8,34 @@
 body { 
     background-color: #24253E;
 }
+
+.slideEffect {
+  overflow: hidden;
+  height: fit-content;
+}
+
+.slideElement {
+  opacity: 0;
+  position:relative;
+}
+
+.slideLeft {
+  left: -100%;
+  animation: slideLeft ease 1s forwards;
+}
+
+.slideUp {
+  top: 100%;
+  animation: slideUp ease 1s forwards;
+}
+
+
+@keyframes slideLeft {
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(100%);opacity:1;}
+}
+
+@keyframes slideUp {
+  0% {transform: translateY(100%);}
+  100% {transform: translateY(0);opacity:1;}
+}
