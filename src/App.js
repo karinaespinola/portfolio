@@ -2,19 +2,19 @@ import './styles/styles.css';
 import Email from './components/icons/Email';
 import LinkedIn from './components/icons/LinkedIn';
 import GitHub from './components/icons/GitHub';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
     <main>
       <div className="App">
         <div 
-          className="bg-primary h-full" 
+          className="bg-primary h-full flex" 
           style={{backgroundImage:"url('/assets/white-waves.svg')", backgroundRepeat: 'no-repeat'}}
         >
-            <div className="h-5" />
-            <img  src="/assets/star.svg" alt="Cali Espinola" title="Cali Espinola" />
+            <SideBar />
           <div className="container mx-auto relative grid grid-cols-1 md:grid-cols-12 gap-4 px-2">
-            <div className="sm:mt-28 md:col-span-6">
+            <div className="sm:mt-28 md:col-span-5">
               <div className="slideEffect">
                 <h1 
                   className="text-white text-7xl font-bold slideElement slideLeft"
