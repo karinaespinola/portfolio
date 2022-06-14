@@ -5,12 +5,12 @@ import GitHub from './icons/GitHub';
 
 const SideBar = () => {
   return (
-    <aside class="sticky h-full w-12">
-      <div className='flex flex-col justify-start'>
+    <aside class="md:flex flex-col justify-between w-12 p-1 md:fixed min-h-screen sm:hidden">
+      <div>
         <div className="h-5" />
         <img  src="/assets/star.svg" alt="Cali Espinola" title="Cali Espinola" />
       </div>
-      <div className="flex flex-col h-full justify-end align-middle">
+      <div className="flex flex-col align-middle">
         <Email />
         <LinkedIn />
         <GitHub />
