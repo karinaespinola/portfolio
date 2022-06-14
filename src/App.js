@@ -27,13 +27,14 @@ function App() {
                   Web Developer
                 </h2>
               </div>
-
-              <p className="text-white mt-3">
-              Hello! Welcome to my website, thank you for stopping by :) I'm a web developer located in El Salvador. 
-              I have been working as a web developer for 7 years now, I have been involved in both front-end and back-end projects. 
-              I love the fact that I learn something new every day! It's the best feeling! 
-              If you'd like to contact me please feel free to e-mail me or drop me a line through social media :)
-              </p>
+              <div className="slideEffect">
+                <p className="slideElement slideUp text-white mt-3">
+                Hello! Welcome to my website, thank you for stopping by :) I'm a web developer located in El Salvador. 
+                I have been working as a web developer for 7 years now, I have been involved in both front-end and back-end projects. 
+                I love the fact that I learn something new every day! It's the best feeling! 
+                If you'd like to contact me please feel free to e-mail me or drop me a line through social media :)
+                </p>
+              </div>
 
             </div>
             <div className="md:col-span-6 flex items-center justify-center">
