@@ -1,5 +1,8 @@
 import './styles/styles.css';
 import SideBar from './components/SideBar';
+import Email from './components/icons/Email';
+import LinkedIn from './components/icons/LinkedIn';
+import GitHub from './components/icons/GitHub';
 
 function App() {
   return (
@@ -34,6 +37,29 @@ function App() {
                 I love the fact that I learn something new every day! It's the best feeling! 
                 If you'd like to contact me please feel free to e-mail me or drop me a line through social media :)
                 </p>
+                <div className="flex align-middle md:hidden">
+                  <a 
+                    href="mailto:kl.spinolah@gmail.com" 
+                    className="mr-3 h-14 w-14 bg-white rounded-full flex items-center justify-center hover:bg-secondary group"
+                    aria-label="Email"                
+                  >
+                    <Email classes="text-primary h-10 w-10 group-hover:text-pink-500" />
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/in/karina-espinola/" 
+                    className="mr-3 h-14 w-14 bg-white rounded-full flex items-center justify-center hover:bg-secondary group"
+                    aria-label="LinkedIn"
+                  >
+                    <LinkedIn classes="text-primary h-11 w-11 group-hover:text-pink-500" />
+                  </a>
+                  <a 
+                    href="https://github.com/karinaespinola"
+                    className="mr-3 h-14 w-14 bg-white rounded-full flex items-center justify-center hover:bg-secondary group"
+                    aria-label="GitHub"
+                  >
+                    <GitHub classes="text-primary h-10 w-10 group-hover:text-pink-500" />
+                  </a>
+                </div>
               </div>
 
             </div>
