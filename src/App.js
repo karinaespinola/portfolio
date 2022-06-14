@@ -1,7 +1,4 @@
 import './styles/styles.css';
-import Email from './components/icons/Email';
-import LinkedIn from './components/icons/LinkedIn';
-import GitHub from './components/icons/GitHub';
 import SideBar from './components/SideBar';
 
 function App() {
