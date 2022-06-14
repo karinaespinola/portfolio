@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Menu from './icons/Menu';
+import CloseMenu from './icons/CloseMenu';
 
 export default function Nav({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -12,8 +14,12 @@ export default function Nav({ fixed }) {
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <i className="fas fa-bars"></i>
+            > 
+              <div className={`menu-icon-wrapper  justify-center align-middle flex-col ${navbarOpen ? 'open-menu' : ''}`}>
+                <span className="w-6 h-1 bg-white rounded-sm transition-all block mb-1"></span>
+                <span className="w-6 h-1 bg-white rounded-sm transition-all block mb-1"></span>
+                <span className="w-6 h-1 bg-white rounded-sm transition-all block"></span>   
+              </div>          
             </button>
           </div>
           <div

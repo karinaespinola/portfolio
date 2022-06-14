@@ -39,3 +39,16 @@ body {
   0% {transform: translateY(100%);}
   100% {transform: translateY(0);opacity:1;}
 }
+
+.open-menu span:first-child {
+  transform: rotate(45deg) translate(6px, 5px);
+}
+
+.open-menu span:nth-child(2) {
+  transform: translateX(-50px);
+  background: transparent;
+}
+
+.open-menu  span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
