@@ -1,10 +1,12 @@
 import './styles/styles.css';
+import Nav from './components/Nav';
 import SideBar from './components/SideBar';
 
 function App() {
   return (
     <main>
       <div className="App">
+      <Nav />
         <div 
           className="bg-primary h-full flex" 
           style={{backgroundImage:"url('/assets/white-waves.svg')", backgroundRepeat: 'no-repeat'}}
