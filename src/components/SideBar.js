@@ -5,7 +5,7 @@ import GitHub from './icons/GitHub';
 
 const SideBar = () => {
   return (
-    <aside class="md:flex flex-col justify-between w-12 p-1 md:fixed min-h-screen hidden">
+    <aside class="md:flex flex-col justify-between w-12 p-1 md:fixed hidden h-5/6">
       <div>
       </div>
       <div className="flex flex-col align-middle">
